@@ -51,16 +51,15 @@ body{
 	}
 	#buttons{
 		float:right;
-		
-		a{
-			background: #397CAC;
-			padding: .5em 1em;
-			border-radius: 0.2em;
-			color:white;
-			font-weight: 100;
-			text-decoration: none;
+			a {
+				background: #326049;
+				padding: 8px 16px;
+				border-radius: 3px;
+				color:white;
+				font-weight: 100;
+				text-decoration: none;
 
-		}
+			}
 		
 
  }
@@ -68,23 +67,23 @@ body{
 }
  #posts {
 	background-color:white;
-	padding: 2em 5%;
-	border-radius: 0.5em;
+	padding: 32px 5%;
+	border-radius: 8px;
 	color: #537979;
 	.post{
-		margin: 1em 0;
-		padding: 1em 0;
+		margin: 16px 0;
+		padding: 16px 0;
 		border-bottom: 1px solid #D1d1d1;
 		.title{
 			margin: 0;
 							a{
-				color: #397cac;
+				color: #326049;
 				text-decoration: none;
 				}
 			}
 		.date{
 			margin-top: 2px;
-			font-size: 14px;
+			font-size: 12px;
 			color: gray;
 			
 					}
@@ -93,10 +92,10 @@ body{
  }
 
  .button{
- 	color: #397cac;
-	border: 1px solid #397cac;
-	padding: .5em 1em;
-	border-radius: 0.2em;
+ 	color: #326049;
+	border: 1px solid #326049;
+	padding: 8px 16px;
+	border-radius: 3px;
 	text-decoration: none;
 	margin-right: 2%;
 				
@@ -104,25 +103,25 @@ body{
 
 #post_content {
 	background: white;
-	padding: 2em 5%;
-	border-radius: .5em;
+	padding: 32px 5%;
+	border-radius: 8px;
 	h1{
 		font-weight: 100;
-		font-size: 2em;
+		font-size: 32px;
 		color: #537979;
 		margin-top: 0;
 	}
 	p{
 		color:#008080;
-		font-size: 0.9rem;
+		font-size: 14px;
 		font-weight: 100;
 		line-height: 1.5;
 	}
 	#comments{
 		.comment {
 			border-bottom: 1px solid #D1d1d1;
-			padding-bottom: 1em;
-			margin-bottom: 1em;
+			padding-bottom: 16px;
+			margin-bottom: 16px;
 			.content {
 				width: 70%;
 				float: left;
@@ -130,14 +129,14 @@ body{
 			.buttons {
 				width: 30%;
 				float: left;
-				font-size: .8em;
+				font-size: 12px;
 				text-align: right;
-				padding-top: 1.5em;
+				padding-top: 24px;
 				a {
-					color: #397cac;
+					color: #326049;
 					border: 1px solid #397cac;
-					padding: .5em 1em;
-					border-radius: 0.2em;
+					padding: 8px 16px;
+					border-radius: 3px;
 					text-decoration: none;
 					margin-right: 2%;
 				}
@@ -149,25 +148,25 @@ body{
 			}
 			.comment_author {
 				color: #397cac;
-				margin-top: .5rem;
-				font-size: 0.6em;
+				margin-top: 8px;
+				font-size: 9px;
 				font-weight: 700; 
 			}
 		}
 		input[type="submit"]{
-			background: #397CAC;
+			background: #326049;
 			border:none;
 			color: white;
 			font-weight: 100;
-			padding: .5em 1em;
-			border-radius: .2em;
+			padding: 8px 16px;
+			border-radius: 3px;
 		}
 		textarea{
 			width: 100%;
 			min-height: 200px;
 			border: 1px solid #d1d1d1;
-			border-radius: .2em;
-			margin: 1em 0;
+			border-radius: 3px;
+			margin: 16px 0;
 		}
 	}
 }
