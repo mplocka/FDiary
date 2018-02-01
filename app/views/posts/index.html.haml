@@ -1,4 +1,5 @@
 #posts
+
 	- @posts.each do |post|
 		.post
 			%h2.title= link_to post.title, post
@@ -8,11 +9,14 @@
 				by
 				= post.user.email
 
-			%p
-				= post.comments.count
-				Comments
-			%p	
-				= post.get_likes.size
-				Likes
+			%p.buttons
+				%span
+					%i.fa.fa-comments-o
+					= post.comments.count
+					Comments
+				%span	
+					%i.fa.fa-thumbs-o-up
+					= post.get_likes.size
+					Likes
 
 // link_to "New Post", new_post_path
