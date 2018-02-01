@@ -46,5 +46,6 @@ group :development do
   gem 'haml', '~> 5.0', '>= 5.0.4'
   gem 'simple_form', '~> 3.5'
   gem 'devise', '~> 4.3'
+  gem 'acts_as_votable', '~> 0.10.0'
 end
 
