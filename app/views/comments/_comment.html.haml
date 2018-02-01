@@ -1,7 +1,7 @@
 .comment.clearfix
 	.content
 		%p=comment.comment
-		%p=comment.user.email
+		%p.date=comment.user.email
 	.buttons
 		-if current_user == comment.user
 			= link_to "Edit", edit_post_comment_path(comment.post, comment)

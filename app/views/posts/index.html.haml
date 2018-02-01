@@ -9,13 +9,11 @@
 				by
 				= post.user.email
 
-			%p.buttons
-				%span
-					%i.fa.fa-comments-o
+			#container.clearfix
+				%p.likes
 					= post.comments.count
 					Comments
-				%span	
-					%i.fa.fa-thumbs-o-up
+				%p.likes
 					= post.get_likes.size
 					Likes
 

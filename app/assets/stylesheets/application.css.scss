@@ -14,6 +14,7 @@
  *= require_self
  */
 body{
+
 	font-family: 'Lato', sans-serif;
 	background-color: #c3d1d180;;
 
@@ -36,7 +37,8 @@ body{
 }
  
 .main_header {
-	width: 80%; 	
+	width: 80%; 
+	max-width: 1140px;	
 	margin: 0 auto;
 	background-color:white;
 	padding: 32px 5%;
@@ -75,8 +77,11 @@ body{
  #posts {
 	background-color:white;
 	padding: 32px 5%;
+	margin: 0 auto;
 	border-radius: 8px;
+	max-width: 1140px;
 	color: #537979;
+	width: 80%;
 	.post{
 		margin: 16px 0;
 		padding: 16px 0;
@@ -89,14 +94,22 @@ body{
 				}
 			}
 		.date{
-			margin-top: 2px;
-			font-size: 12px;
+			margin-top: 14px;
+			font-size: 14px;
 			color: gray;
+			float: left;
 			
 					}
 				
 		}
- }
+		.likes
+		{
+			margin-top: 14px;
+			float: right;
+			padding-right: 6px;
+			font-size: 14px;
+		}
+}
 
  .button{
  	color: #326049;
@@ -118,11 +131,29 @@ body{
 		color: #537979;
 		margin-top: 0;
 	}
-	p{
-		color:#008080;
+	#likes {
+		text-align: center;
+		text-decoration: none;
 		font-size: 14px;
+		span {
+			height: 14px;
+			padding: 16px 0;
+			color: #149957;		
+			
+		}
+	}
+	p{
+		color:#657766;
+		font-size: 16px;
 		font-weight: 100;
-		line-height: 1.5;
+		line-height: 1.8;
+	}
+
+	#buttons{
+		a{
+
+
+		}
 	}
 	#comments{
 		.comment {
