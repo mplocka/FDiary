@@ -48,6 +48,7 @@ gem 'simple_form', '~> 3.5'
 gem 'devise', '~> 4.3'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'rails_12factor', group: :production
+gem 'taps', '~> 0.3.24'
 ruby '2.3.1'
 
 
